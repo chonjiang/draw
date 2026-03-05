@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.3.6" pages="2">
   <diagram name="第 1 页" id="St7Ia0flZ5ro4J_h487K">
-    <mxGraphModel dx="1158" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1217" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1eNctWHCGyHBzuDla8XA-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;shadow=0;strokeColor=#CCE5FF;strokeWidth=2;glass=0;fillColor=#CCFFFF;" value="" vertex="1">
           <mxGeometry height="620" width="300" x="80" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="1eNctWHCGyHBzuDla8XA-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;API秘钥管理&lt;/font&gt;" vertex="1">
+        <mxCell id="1eNctWHCGyHBzuDla8XA-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AK/SK管理&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="100" x="180" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="1eNctWHCGyHBzuDla8XA-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;创建项目&lt;/font&gt;" vertex="1">
+        <mxCell id="1eNctWHCGyHBzuDla8XA-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;创建api资源&lt;/font&gt;" vertex="1">
           <mxGeometry height="70" width="135" x="162.5" y="130" as="geometry" />
         </mxCell>
         <mxCell id="1eNctWHCGyHBzuDla8XA-6" edge="1" parent="1" source="1eNctWHCGyHBzuDla8XA-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
@@ -19,7 +19,7 @@
             <mxPoint x="230" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1eNctWHCGyHBzuDla8XA-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;创建api资源&lt;/font&gt;" vertex="1">
+        <mxCell id="1eNctWHCGyHBzuDla8XA-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;创建权限&lt;/font&gt;" vertex="1">
           <mxGeometry height="70" width="120" x="170" y="240" as="geometry" />
         </mxCell>
         <mxCell id="1eNctWHCGyHBzuDla8XA-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
@@ -36,6 +36,9 @@
             <mxPoint x="229.5" y="420" as="sourcePoint" />
             <mxPoint x="229.5" y="460" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="j6ZORBG_TIDgooA_nugy-1" edge="1" parent="1" source="1eNctWHCGyHBzuDla8XA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1eNctWHCGyHBzuDla8XA-26" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1eNctWHCGyHBzuDla8XA-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;创建ak/sk&lt;/font&gt;" vertex="1">
           <mxGeometry height="70" width="120" x="170" y="460" as="geometry" />
